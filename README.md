@@ -47,7 +47,7 @@ This part used the `worldometer_data.csv` file to predict `TotalDeaths`.
 
 ## Key Findings & Results
 
-* **Model Performance:** The Random Forest model performed well, achieving an **R-squared ($R^2$) of 0.747**. This indicates that the model was able to explain ~74.7% of the variance in total deaths using the features provided.
+* Model Performance: The Random Forest model performed well, achieving an **R-squared ($R^2$) of 0.747**. This indicates that the model was able to explain ~74.7% of the variance in total deaths using the features provided.
 * **Most Contributing Factors:** The model's feature importance analysis revealed the **Top 5 factors** for predicting COVID-19 deaths:
     1.  `TotalCases` (29.2% importance)
     2.  `TotalRecovered` (16.0% importance)
@@ -57,17 +57,9 @@ This part used the `worldometer_data.csv` file to predict `TotalDeaths`.
 
 ![Feature Importance](feature_importance.png)
 
-## How to Run
-
-This project was built to run in a Google Colab environment.
-
-1.  Open a new Google Colab notebook.
-2.  In the file pane, use the "Upload" button to upload all 6 CSV files.
-3.  Copy and paste the code from the project's Python file (`.py` or `.ipynb`) into a Colab cell.
-4.  Run the cell. The script will execute all analyses and save the output visualizations (6 `.png` images and 1 `.html` interactive map) to the Colab environment, which you can then download.
 
 ## Libraries Used
 
-* **Data Manipulation:** `pandas`, `numpy`
-* **Visualization:** `matplotlib`, `seaborn`, `plotly.express`
-* **Machine Learning:** `scikit-learn` (sklearn)
+* **Data Manipulation:`pandas`, `numpy`
+* **Visualization: `matplotlib`, `seaborn`, `plotly.express`
+* **Machine Learning: `scikit-learn` (sklearn)
